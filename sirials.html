@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 
-{% block title %}Фильмы{% endblock %}
+{% block title %}Cериалы{% endblock %}
 
 {% block menu %}
 
 	<ul class="nav nav-pills">
                 
 	    <li> <a href="/">Главная</a> </li>
-	    <li class="active"> <a href="/films">Фильмы</a> </li>
-	    <li> <a href="/sirials">Сериалы</a> </li>
+	    <li> <a href="/films">Фильмы</a> </li>
+	    <li class="active"> <a href="/sirials">Сериалы</a> </li>
 	    <li> <a href="/rating">Рейтинг фильмов</a> </li>
 	    <li> <a href="/contact">Контакты</a> </li>
 
@@ -17,7 +17,7 @@
 {% endblock %}
 
 {% block content %}
-	        <div class="col-lg-9 col-lg-push-3"> <!-- Меняем блоки местами col-lg-push-3 -->
+	<div class="col-lg-9 col-lg-push-3"> <!-- Меняем блоки местами col-lg-push-3 -->
 
             <form role="search" class="visible-xs">
                 <div class="form-group">
@@ -30,22 +30,22 @@
                 </div>
             </form> 
 
-           <h1>Фильмы</h1>
+           <h1>Сериалы</h1>
            <hr>
           
             <div class="row">
                 <div class="well clearfix">
                     <div class="col-lg-3 col-md-2 text-center">
-                        <img class="img-thumbnail" src="/static/img/inter.png" alt="интерстеллар">
-                        <p>Интерстеллар</p>
+                        <img class="img-thumbnail" src="/static/img/xfiles.png" alt="Секретные материалы">
+                        <p>Секретные материалы</p>
                     </div>
                     <div class="col-lg-9 col-md-10">
                         <p>
-                            Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
+                            Затем засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
                         </p>
                     </div>
                     <div class="col-lg-12">
-                        <a href="/films/interstellar" class="btn btn-lg btn-warning pull-right">Детальнее</a>
+                        <a href="#" class="btn btn-lg btn-warning pull-right">Детальнее</a>
                     </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@
             <div class="row">
                 <div class="well clearfix">
                     <div class="col-lg-3 col-md-2 text-center">
-                    <img class="img-thumbnail" src="/static/img/matrix.png" alt="матрица">
-                    <p>Матрица</p>
+                    <img class="img-thumbnail" src="/static/img/silicon.png" alt="Кремневая долина">
+                    <p>Кремневая долина</p>
                     </div>
                     <div class="col-lg-9 col-md-10">
                         <p>
@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="well clearfix">
                     <div class="col-lg-3 col-md-2 text-center">
-                    <img class="img-thumbnail" src="/static/img/max.png" alt="безумный макс">
-                    <p>Безумный Макс</p>
+                    <img class="img-thumbnail" src="/static/img/dead.png" alt="Ходячие мертвецы">
+                    <p>Ходячие мертвецы</p>
                     </div>
                     <div class="col-lg-9 col-md-10">
                         <p>
@@ -93,8 +93,8 @@
             <div class="row">
                 <div class="well clearfix">
                     <div class="col-lg-3 col-md-2 text-center">
-                    <img class="img-thumbnail" src="/static/img/cloud.png" alt="Облачный Атлас">
-                    <p>Облачный Атлас</p>
+                    <img class="img-thumbnail" src="/static/img/breakingbad.png" alt="Во все тяжкие">
+                    <p>Во все тяжкие</p>
                     </div>
                     <div class="col-lg-9 col-md-10">
                         <p>
@@ -109,5 +109,4 @@
 
 
         </div>
-
 {% endblock %}
