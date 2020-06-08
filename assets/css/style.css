@@ -1,0 +1,182 @@
+.header a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+}
+
+#header {
+    background-color: darkslateblue;
+    border: none;
+}
+
+.header h1 {
+	letter-spacing: 10px;
+	font-size: 200%;
+}
+
+.header p {
+	color: #8A8896;
+	font-size: 70%;
+	letter-spacing: 3px;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #5465D6;
+}
+
+.nav-pills>li>a {
+	color: #fff;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #5465D6;
+}
+
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0;
+}
+
+@media (max-width: 767px) {
+
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 { 
+	    font-size: 280%;
+	    letter-spacing: 5px;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+} 
+
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+.films_block {
+	text-align: center;
+}
+
+.films_block img {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 8%;
+}
+
+
+.panel {
+	border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+    border: solid 2px darkslateblue;
+    border-radius: 8px;
+}
+
+.panel-info>.panel-heading {    
+    border: solid 2px darkslateblue;
+    border-radius: 8px;
+    background-color: #5465D6;
+}
+
+.sidebar-header {
+	font-size: 120%;
+    letter-spacing: 2px;
+    color: #fff;
+    border: solid 2px darkslateblue;
+    border-radius: 8px;
+    background-color: #5465D6;
+}
+
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg {
+	font-size: 14px;
+}
+
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+.badge {
+	background-color: #000000;
+}
+
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
+}
+
+textarea.form-control {
+	height: 200px;
+}
+
+.table tbody>tr>td.vert-aling{
+	vertical-align: middle;
+}
+
+footer {
+	color: #666;
+	background: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	color: #efefef;
+}
